@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color:#1E293B;
+    color: #F1F5F9;
+}
+.main-layout {
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+    align-items: center;
+    gap: 30px;
+
+    width: 100%;
+    min-height: 80vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+h1{
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.map-container {
+    width: 100%;
+    min-width: 0;
+}
+.state-info {
+    width: 100%;
+    min-width: 0;
+    max-width: 500px;
+}
+.map-container svg {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.map-container svg path{
+    fill:#1E293B;
+    stroke: white;
+    stroke-width: 1.5;
+}
+#features path:hover{
+    fill:black;
+    cursor: pointer;
+    transition: all 0.75s ease-in-out ;
+
+}
+#ind{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+#andaman{
+    fill:#76A99D;
+}
+#tg{
+    fill:#987F9E;
+}
+#ap{
+    fill:#C3A77C;
+}
+#arun{
+    fill:#76A99D;
+}
+#asm{
+    fill:#788DA6;
+}
+#bh{
+    fill:#B77C88;
+}
+#chand{
+    fill:#B77C88;
+}
+#chhatti{
+    fill:#829B78;
+}
+#dh{
+    fill:#C3A77C;
+}
+#dl{
+    fill:#987F9E;
+}
+#goa{
+    fill:#987F9E;
+}
+#gj{
+    fill:#B97860;
+}
+#haryana{
+    fill:#A18F55;
+}
+#hp{
+    fill:#547A9E;
+}
+#jhar{
+    fill:#A77F68;
+}
+#ka{
+    fill:#5F9E9A;
+}
+#kl{
+    fill:#788DA6;
+}
+#mp{
+    fill:#547A9E;
+}
+#mh{
+    fill:#829B78;
+}
+#mni{
+    fill:#987F9E;
+}
+#meg{
+    fill:#B77C88;
+}
+#mizo{
+    fill:#76A99D;
+}
+#naga{
+    fill:#C3A77C;
+}
+#ori{
+    fill:#B77C88;
+}
+#py{
+    fill:#B97860;
+}
+#pb{
+    fill:#B97860;
+}
+#raj{
+    fill:#A18F55;
+}
+#sik{
+    fill:#829B78;
+}
+#tn{
+    fill:#829B78;
+}
+#tri{
+    fill:#B77C88;
+}
+#up{
+    fill:#A77F68;
+}
+#ut{
+    fill:#5F9E9A;
+}
+#wb{
+    fill:#547A9E;
+}
+#laksh{
+    fill:black;
+}
+#jk{
+    fill:#788DA6;
+}
+#ladak{
+    fill:#A18F55;
+}
+.state-info {
+    width: 100%;
+    min-width: 0;
+}
+.india-overview {
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 800px) {
+    .main-layout {
+        grid-template-columns: 1fr;
+    }
+    .map-container {
+        max-width: 650px;
+        margin: 0 auto;
+    }
+    .state-info {
+        max-width: 100%;
+    }
+}
